@@ -96,3 +96,8 @@ footer p {
     width: 40px;
     margin: 10px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
