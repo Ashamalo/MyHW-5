@@ -1,0 +1,84 @@
+* {
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: rgb(245, 253, 247);
+    font-size: 16px;
+}
+
+h1, h2 {
+    color: navy;
+    margin: 25px 10px;
+}
+
+div.element-child>p {
+    background-color: yellow;
+}
+
+div p.main {
+    background-color: blueviolet;
+}
+
+p.second-sect em+a {
+    font-size: 20px;
+    color: green;
+    background: lightcyan;
+}
+
+p.main a {
+    font-size: 28px;
+    color: red;
+}
+
+h3, h4 {
+    color: gray;
+}
+
+.blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+[target] {
+    color: orange;
+}
+
+div p {
+    color: purple;
+}
+
+ul>li {
+    color: teal;
+}
+
+.container h2 {
+    color: brown;
+}
+
+span .highlight {
+    color: gold;
+}
+
+h4+p {
+    color: darkblue;
+}
+
+p~ol {
+    color: darkgreen;
+}
+
+a[href*="page"] {
+    background-color: lightgrey;
+}
+
+a[href^="https://examlpe.ua"] {
+    background-color: lightcoral;
+}
+
+a[href$=".pdf"] {
+    color: red;
+}

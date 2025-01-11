@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework-4</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>This is my home work page</h1>
+    <section>
+        <div class="element-child">
+            <h2>Part 1</h2>
+            <p>Застосовується до тегів p, вкладених у div з класом element-child на першому рівні,
+                вага 3</p>
+            <p>Застосовується до тегів p, вкладених у div з класом element-child на першому рівні,
+                вага 3</p>
+            <div>
+                <p>тут не застосовується бо елемент div без класу</p>
+            </div>
+            <p>Застосовується до тегів p, вкладених у div з класом element-child на першому рівні,
+                вага 3</p>
+        </div>
+        <div>
+            <p class="main">Застосовується для всіх тегів p з класом
+                main що вкладені у тег div, вага 3
+            </p>
+        </div>
+        <div>
+            <p class="second-sect">
+                <a href="#">Посилання 1</a>
+            </p>
+            <p class="second-sect">
+                <a href="#">Посилання 2</a>
+                <em>Сусіднім елементом буде</em>
+                <a href="#">Посилання 3</a>
+                <em>стилі застосовуються до a, що поруч з em у p з класом second-sect</em>
+                <span>, вага
+                    4</span>
+                <a href="#">Посилання 4</a>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h3>work with links</h3>
+        <p class="main">У цьому параграфі
+            <strong><a href="#">це посилання</a></strong>
+            буде розміром 28рх та червоного кольору.
+            <a href="#">і це також</a>
+        </p>
+        <p>A в цьому параграфі
+            <a href="#">посилання</a> буде звичайним.
+        </p>
+    </section>
+
+    <section>
+        <h4>це елемент із селектором за тегом. Вага 1</h4>
+        <p class="blue">Це елемент із селектором за класом blue. Вага 1</p>
+        <p id="green">Це елемент із селектором за id green. вага 1</p>
+        <a href="#" target="blank">Це елемент із селектором за атрибутом target. Вага 1</a>
+        <div>
+            <p>Це елемент із вкладеним селектором dіv p Вага 2</p>
+        </div>
+        <ul>
+            <li>Це елемент із дочірнім селектором ul > li Вага 2</li>
+            <li>Це елемент із дочірнім селектором ul > li Вага 2</li>
+            <li>
+                <ol>
+                    <li>вкладений список елемент 1</li>
+                    <li>вкладений список елемент 2</li>
+                </ol>
+            </li>
+        </ul>
+        <div class="container">
+            <h2>Це елемент із послідовністю селекторів .container h2 Вага 2</h2>
+        </div>
+        <span> <em class="highlight">Це елемент із комбінацією селекторів span.highlight Вага 2</em></span>
+        <h4>Заголовок для послідовності селекторів</h4>
+        <p>Цей параграф відразу після h4 вага2</p>
+        <p>Цей параграф не йде після h4. Він йде після p</p>
+        <a href="#">link</a>
+        <p>Цей параграф не одразу після h4</p>
+        <h4>застосовує стилі до всіх елементів ol що розташовани після елемента p (селектор з ~) вага 2.</h4>
+        <ol>
+            <li>title1</li>
+            <li>title2</li>
+            <li>title3</li>
+        </ol>
+        <span>Наступний список</span>
+        <ol>
+            <li>Яблука</li>
+            <li>Груші</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Застосуються стилі до всіх посилань чий атрибут href містить підланцюжок page Вага 2</h3>
+        <a href="https://examlpe.com/page1">Сторінка 1</a>
+        <a href="https://examlpe.com/about">Про нас</a>
+        <a href="https://examlpe.com/page2">Сторінка 2</a>
+    </section>
+
+    <section>
+        <h3>Застосуються стилі до всіх посилань a, атрибут href яких починається з "https://example.com". Вага 2</h3>
+        <a href="https://examlpe.com/page1">Сторінка 1</a>
+        <a href="https://examlpe.ua/about">Про нас</a>
+        <a href="https://examlpe.com/page2">Сторінка 2</a>
+    </section>
+
+    <section>
+        <h3>Застосуються стилі до всіх посилань a, атрибут href яких закінчується на ".pdf". Вага 2 </h3>
+        <a href="photo.jpg">Photo</a>
+        <a href="document.pdf">Document</a>
+        <a href="image.png">Pictire</a>
+    </section>
+</body>
+
+</html>
