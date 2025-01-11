@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 div.element-child>p {
-    background-color: yellow;
+    background-color: rgb(252, 252, 156);
 }
 
 div p.main {
@@ -100,4 +100,8 @@ footer p {
 form {
     display: flex;
     flex-direction: column;
+}
+
+.image-sect {
+    width: 500px;
 }
