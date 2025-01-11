@@ -89,4 +89,10 @@ a[href$=".pdf"] {
 
 footer p {
     color: #eee;
+    margin: 10px;
+}
+
+.social-img {
+    width: 40px;
+    margin: 10px;
 }
