@@ -82,3 +82,11 @@ a[href^="https://examlpe.ua"] {
 a[href$=".pdf"] {
     color: red;
 }
+
+.footer-container {
+    background-color: darkblue;
+}
+
+footer p {
+    color: #eee;
+}
